@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.App-text {
+  font-size: 1.5rem;
+  margin-bottom: auto;
+}
+
+.Bottom-logo {
+  width: 150px;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
